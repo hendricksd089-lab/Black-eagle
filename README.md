@@ -1,8 +1,0 @@
-# Black-eagle
-What do you think the risk is for individuals when their email addresses and passwords are exposed to the public?
-Account Takeover:
-Hackers can log directly into your primary email account,lock you out by changing the password and control your comunications.
-Identity Theft and Financial Fraud:
-Attackers can cob through your private emails for personal data,financial statements,or tax documents to open fraudulent credit accounts or steal funds.
-Phishing and Impersonation:
-Hackers can use your genuine email address to send spam or convincing phishing scams to your contacts,family,or coworkers while posing as you.
