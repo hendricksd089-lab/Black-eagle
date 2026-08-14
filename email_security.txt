@@ -1,0 +1,29 @@
+What three things should have alerted you to the fact that the email from the bank was not legitimate?
+The address which it was sent from is incorrect it ends with a 'greater than' symbol.
+The fact that they immeadiately want to freeze your account instead of finding out if it's you.
+The multiple mistake errors in the email for example 'fruad' in the email address.
+
+Do you think it is possible your computer is infected with malware based on the given email scenario? Justify your answer.
+Yes.It would seem the computer is infected with some type of malware given the perforance issues suddenly occuring.
+
+Write a paragraph to train fellow employees on phising,social engineering,and how to avoid malware infection(200-400).
+-Question Urgency
+Be suspicious of messages that create sudden fear,panic or strict deadline demanding immediate action.
+-Avoid Clicking Links
+Do not click links or open unexpected attachments in unsolicited emails or text messages.
+-Use Official Channels
+If a request appears to come from your bank,a vendor or IT support contact them using a verified phone number or official website never the contact details provided in the suspicious message.
+-Turn on Multi-Factor Authentication (MFA)
+Add an extra layer of verification (like an authenticator app or hardware key)to your accounts so passwords alone aren't enough.
+-Use Strong,Unique Passwords
+Create long,complex passwords for every account and manage them securely using a password manager.
+-Limit Personal Data Sharing
+Avoid overcharging personal and professional detail on social media,cause cybercriminals use it to craft convincing,personalized pretext.
+-Keep software updated
+Install automatic operating system updates,browser patches,and application upgrades to close security gaps that malware exploits.
+-Install Security Software
+Run reputable anti-malware and anti-virus programs alongside active spam and phising filters for your email
+-Access Control
+Limit access to sensitive information based on roles and responsibilities,ensuring employees only have access to what they need.
+-Ask for ID
+One of the easiest social engineering attacks is bypassing security to get into a building by carrying a large box or an harmful of files.After all,some helpful person will hold the door open.Don't fall for this.Always ask for ID.
