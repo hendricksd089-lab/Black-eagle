@@ -1,0 +1,52 @@
+2.The Organization Or Sector Affected
+Targeted older Microsoft Windows systems that had not installed available  security patches.UK National Health Service(NHS),Global Corporations.
+
+The Type Of Attack And How It Unfolded
+The Wannacry ransomware attack began on May 12 2017,It infected over 200,000 computers across 150 countries within days.
+
+The Immediate And Long-Term Attacks
+Disrupted hospitals and forced ambulance diversions.Hit large enterprises including FedEx,Telefonica,Renault and Honda.
+Caused global losses estimated in the hundreds of millions to billions of dollars.
+
+3.Simulate an analysis process:
+How the attacker gained access*
+The attackers used the EternalBlue which is an exploit targeting a critical flaw in Microsoft's
+Server Message Block version 1 (SMBv1)protocol.It sends specially crafted packets to port 445 to overflow memory buffers,allowing attackers to execute arbitrary code without any user action.
+Moved through the system*
+When executed Wannacry checks if the kill switch domain is available.If it is unavailable the ransomware encrypts computer data and then attempts to exploit EtenalBlue to spread to more computers on the internet and on the same network.An infected computer will search the target network for devices accepting traffic on TCP 135-139 or 445 indicating the system is configured to run SMB.
+Caused Harm*
+The attack had a major impact on organizations across the world,infecting over 230,000 computers and causing billions of dollars worth of damages.It had a particularly devastating effect on Healthcare organizations,including the U.K.'s National Health Service(NHS),due to their extensive use of outdated and unmatched Windows devices.
+Identify the vulnerabilities that were exploited*
+Wannacry ransomware attack exploited a remote code execution vulnerability in the Microsoft Windows Server Message Block 1.0(SMBv1)protocol.Which was then enabled by EternalBlue,a zero-day exploit in legacy versions of Windows computers that used an outdated version of Server Message Block (SMB)protocol.Wannacry is a network worm with a transport network mechanism designed to automatically spread itself.They transport scans for systems vulnerable to the EternalBlue and then installs DoublePulsar(Backdoor)and executes a copy of itself.
+
+Propose at least two defensive measures that could've disrupted or prevented the attack.
+No point of single failure*
+Whether it is a ransonware,hardware failure,database error or something else.If your data is important,then it should be backed up,at least one other secure location.
+Automate Provisioning Process*
+If an asset is taken down by ransomware or anything else,you should be able to return it to a working state as soon as possible.
+
+4.Hands on exploration
+The prices listed were unrealistically low for commomly expensive gear.
+The store name and name of the gear did not match.
+The customer service contact listed in the footer is which;as it turns out is a generic white-label support address commonly associated with fraudulent network stores operated out overseas scam hubs.
+
+5.Conclude with a short reflection paragragh(100-150) explaining how this exercise changed your understanding of how threats develop and how you would respond in a real situation.
+It changed my perspective cause I was a victim of this scam.It started on TikTok when a AD for black friday showed on my screen which said 90% off on North Face clothing.At first I was skeptical and didn't click on the link,but after it appeared more than once I figured why not.After I clicked on the link the website seemed legit,but after I paid online and got the confirmation email,I realised I had been scammed and my first indicator was the name on the email.It said "zzl888' and North Face the brand name I assumed I was buying was nowhere to be seened.I immediately contacted my bank and they advised me to deactivate my bank card and issued me a new one,and they launched an investigation to which end I got my money bank.This experience definitely thougt me to be careful when handing out my PII on the internet.
+
+6.Submit the following in your task folder
+i A summary of your chosen case study:
+Targeted older Microsoft Windows systems that had not installed available security patches.UK National Health Service(NHS),Global Corporations.The Wannacry ransomware attack began on May 12 2017,It infected over 200,000 computers across 150 countries within days.Disrupted hospitals and forced ambulance diversions.Hit large enterprises including FedEx,Telefonica,Renault and Honda.Caused global losses estimated in the hundreds of millions to billions of dollars.
+ii A diagram or description of the attack path:
+They used the EternalBlue which is an exploit targeting a critical flaw in Microsoft's Server Message Block version 1 (SMBv1)protocol.It sends specially crafted packets to port 445 to overflow memory buffers,allowing attackers to execute abitary code without any user action.They transport scans for systems vulnerable to the EternalBlue and then installs DoublePulsar(Backdoor)and executes a copy of itself.If executed Wannacry checks if the kill switch domain is available.If it is unavailable the ransomware encrypts computer data and then attempts to exploit EternalBlue to spread to more computers on the internet and on the same network.An infected computer will search the target network for devices accepting traffic on TCP 135-139 or 445 indicating the system is configured to run SMB.The attack had a major impact on organizations across the world,infecting over 230,000 computers and causing billions of dollars worth of damages.It had a particularly devastating effect on Healthcare organizations,including the U.K.'s National Health Service(NHS),due to extensive use of outdated and unmatched Windows devices.
+iii Defensive Recommendation
+*No point of single failure
+Whether it is a ransomware,hardware failure,database error or something else.If your data is important,then it should be backed up,at least one other secure location.
+*Automate Provisioning Process
+If an asset is taken down by ransomware or anything else,you should be able to return it to a working state as soon as possible.
+*Patch Everything
+Keep your systems up-to-date to avoid known exploits.
+*Back Up Data
+Always back up your data in the event you become affected by ransomware.
+
+iv A short reflection on lessons learned
+This experience definitely thought me to be careful when handing out my PII on the internet.It also thought me to always have back ups and to update my computer with the latest software.
