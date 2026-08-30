@@ -1,0 +1,39 @@
+Write your own principles-based governance security framework that aims to address and mitigate some of the security problems in your online business,as noted above.
+1.Access Control
+*Authentication
+Is the initial process of establishing the identity of a user.For example,when a user signs in to their email service or online banking account with a username and password combination,their identity has been authenticated.
+*Authorization
+Adds an extra layer of security to the authentication process.It specifies access rights and privileges to resources to determine whether the user should be granted access to data or make specific transaction.
+*Access
+Once a user has completed the authentication and authorization steps,their identity will be verified.
+
+
+2.Govenance
+*Risk Management
+Identifying,assessing,and prioritizing cybersecurity risks allows organizatins to implement targeted strategies that reduce potential threats and vulnerabilities.
+*Policies and Procedures
+Formalized policies define security expectations,operational controls,and incident response protocols,providing a clear framework for decision-making and accountability.
+*Compliance and Audit
+Regular audits and adherens to legal,regulatory,and industry standards ensure that governance frameworks remain effective,adaptive,and aligned with best practices.
+*Leadership and Accountability
+Executive and board-level commitment ensures cybersecurity is treated as a strategic priority.Clear ownership of roles,resources,and decision-making fosters accountability and embeds security responsibility across all levels of the organization
+*Reporting and Communication
+Establishing clear channels for reporting cybersecurity performance to executives and the board ensures transparency and accountability.
+
+3.Phishing Scams
+*Use Available Training Resources
+Phishing scams are getting harder to spot.Attackers may include personal or company-specific details to make fake message appear real.Train employees to watch for red flags such as strange or unexpected requests,urgent language or suspicious links.Message may appear to come from known contacts whose accounts compromised.
+*Keep Employees Informed
+Designate someone,such as an IT provider or staff lead,to track emerging threats.Ask them to share updates with your team between trainings.Remind employees,customers and vendors to stay alert.If a message feels off or unexpected,staff should verify it but not by  replying or using any phone number or link in the message.Instead,use a search engine to look up the business's phone number or if it appears to come from someone you know,use a known contact method you already have such as a phone number or email address stored on your computer.
+
+4.Cyber Security Technician
+*Cyber security technicians perform various tasks to keep the business and its stakeholders safe from cyber threats.They conduct regular security audits to identify vulnerabilities and develop mitigation strategies,by analysing the organisation's systems and networks,looking for any weaknesses that hackers could exploit.
+Cyber security technicians also pay a crucial role in educating employees about cyber security best practices.
+
+5.The hidden dangers of public Wi-Fi
+*The Risks You Face
+It's not just about your device.Once a hacker has access,they can use your connection to reach sensitive company information client files,financial records or internal systems.Avoiding public Wi-Fi is one of the simplest ways you can protect yourself and your company data.
+*Man-in-the-middle Attacks
+Hackers can intercept the traffic between your laptop or phone and the internet,capturing logins,emails and files without you knowing.
+*Fake Wi-Fi Hotspots
+Criminals can create lookalike networks with names like"Free Airport Wi-Fi".If you connect,everything you do online is visible to them.
