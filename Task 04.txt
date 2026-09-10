@@ -1,0 +1,129 @@
+1.Select a real or hypothetical organization in any sector such as healthcare,education,finance or manufacturing.
+Wellmore Memorial Hospital
+
+2.Conduct a short exposure assessment identifying at least three vulnerabilities or threat areas.
+*Threats
+-Ransomware and Double Extortion
+Malicious software locks or encrypts hospital systems,while attackers simultaneously steal private records to force a payout.
+-Phishing and AI Social Engineering
+Deceptive emails,AI-generated text messages or voice cloning trick staff into giving up login details.
+-Unsecured Medical Devices (IoMT)
+Connected tools like infusion pumps or monitors often run on old software without proper encryption,serving as entry points into the main network.
+*Fixes
+-Implement Zero Trust Architecture
+Restrict network access so that users and devices must constantly verify their identity before moving across internal systems.
+-Enforce Strong Data Encryption
+Encrypt all patient data and electronic health records both while stored and while moving across mobile devices or laptops.
+-Conduct Regular Staff Training
+Teach employees how to spot advanced AI-driven phishing scams and fake login requests.
+
+3.Describe the organization's security posture,including it's controls,governance practices,and culture of awareness.
+*Security Posture
+-High-Target Environment
+Hospitals are prime targets for ransomware because operational downtime directly threatens patient safety,making them more likely to pay ransoms.
+-Legacy System Dependency
+The posture is often complicated by a reliance on older medical devices (like MRI machines or ventilators)that run on outdated software and cannot easily be patched.
+-Converged Security Model
+Modern hospitals use a unified approach where physical security teams and cybersecurity teams actively share intelligence to mitigate risks.
+*Security Controls
+-Access Control Systems
+Badge-restricted entry for sensitive zones like pharmacies,maternity wards and data centers.
+-Surveillance and Alarms
+24/7 CCTV monitoring paired with panic buttons at triage desks and nursing stations.
+-Visitor Management
+Mandatory check-in stations,visitor logs and color coded wristbands.
+
+4.Identify two configuration or installation weaknesses that could compromise security and suggest how they can be mitigated.
+*Inadequate Network Segmentation for Medical Devices
+Hospitals frequently connect clinical workstations,administrative computers,guest Wi-Fi networks and critical Internet of Medical Things (IoMT)devices(such as infusion pumps,patient monitors,and MRI machines)to the same flat network,network.If an administrative employee clicks a phising link and downloads ransomware,the malware can seamlessly move laterally across the network,hijacking life-saving medical machinery.
+Mitigation
+*Implement micro-segmentation
+Isolate medical devices,guest Wi-Fi,and coprporate administrative workflows into entirely separate Virtual Local Area Networks(VLANs).
+*Apply Zero-Trust Network Access
+Configure strict access control firewalls to monitor and restrict communication between segments.A compromised laptop on the administration floor should never have a routing path to an ICU patient monitor.
+*Inadequate Electrical Grounding in Medical Areas
+During physical installation or retrofitting,falling to implemment dedicated,high-precision grounding is a severe structural flaw.Conventional buildings can tolerate standard grounding,but hospitals house highly sensitive diagnostic devices connected directly to vulnerable patients.Poor or non-existent grounding causes stray leakage currents,which can trigger device malfunctions,damage expensive equipment,or cause fatal micro-shocks to patients undergoing procedures.
+Mitigation
+-Install Isolated Power Systems(IPS)Use isolated underground electrical sytems(medical IT systems)paired with continuous insulation monitoring devices in critical care zones like operating rooms and ICUs.
+-Equipotential Bonding
+Physically bond all metallic surfaces and equipment enclosures in patient treatments zones to a central reference grounding busbar to guarantee there is zero voltage differentail between any two objects a patient or doctor might touch.
+
+5.Discuss the ethical dimensions of software licensing and the importance of compliance.
+-Software Licensing
+Software represents considerable time,skill and financial investments by creators,honoring licenses acknowledges ownership and creative labor.
+Paying for or adhering to the terms of a license ensures that developers and maintainers including open-source contributors are fairly rewarded or credited for their work.
+Ethical usage builds reliable relationships betwween commercial vendors,open-source communities,and end-users.
+Copyleft and permissive open-source models carry moral and legal duties to provide proper attribution,preserve copyright notices and share derivative modifications transparently.
+-Compliance
+Adhering to limits prevents costly vendor audits,punitive "true-up"and copyright lawsuits.
+Avoiding sudden software blacklists,forced emergency remediation or lost access to vital tools keeps business workflows stable.
+Maintaining a clean compliance record preserves trust with business partners,client and software creators.
+Unvetted or unauthorized software(shadow IT)often bypasses vulnerability tracking and updates,increasing the risk of breaches.
+
+6.Provide a clear written explanation of how policy,organizational culture and control frameworks interact to create a defense-in-depth approach.describe how these elements reinforce one another to strengthen overall security.
+A true defense in-depth strategy relies on layered protections.If a technical control fails,an administrative policy or a human behavioral check should stop the threat.These three pillars create those layers through continuous interaction.
+*From Framework to Policy
+Control frameworks are too broad to be applied durectly to a nurse's daily workflow.The hospital's leadership uses these frameworks to draft specific internal policies.
+Example*A control framework dictates "Multi-Factor Authentication (MFA)must be used for remote access"The hospital writes a specific policy mandating that any clinician accessing Electronic Health Records (EHR)from home must authenticate via a token.
+*From Policy to Culture
+Policies are useless if they sit in a digital binder and are ignored by busy medical staff.Through continuous training,leadership messaging and onboarding policies shape the organizational culture.
+Example*A policy strictly forbidding password sharing on shared workstation computers in the Emergency Department is reinforced until clinicians view password sharing not as a "time saver",but as a direct threat to patient safety.
+*From Culture back to Framework
+A strong security culture identifies where frameworks and policies break down in the real world.When clinicians report that a specific technical control interfers with urgent patient care,the security team uses that feedback to adjust their control implementations.
+*Technical,Administrative and Human Layers
+They ensure firewalls,segmenting of medical devices(Iot)and encryption are properly deployed.
+They define who owns data,who has access rights and what the legal consequences are for violations.
+It transforms employees from the "weakest link"into a human firewall.A nurse with a strong security culture will immediately spot a phising email disguised as an urgent lab report.
+*Balancing Security with Clinical Workflow
+When control frameworks require strict access management,a strong security culture ensures clinicians understand why it matters,Meanwhile flexible policies allow for emergency overrides(like"break-glass"access protocols)so patient care is never compromised for the sake of a digital lock.
+*Mitigating Insider Threats and Social Engineering
+A control frame might suggest email filtering.A policy mandates reporting suspicious emails.But it is the culture that makes a busy doctor actually pause,notice a suspicious link and click the "Report Phising"button instead of rushing to open the attachment.
+
+
+7.Submit a concise report(500-700 words)summarizing your findings and recommendations,supported by evidence from recognized frameworks.
+-Ransomware and Double Extortion
+Malicious software locks or encrypts hospital systems,while attackers simultaneously steal private records to force a payout.
+-Phising and AI Social Engineering
+Deceptive emails,AI-generated text messages or voice cloning trick staff into giving up login details.
+-Unsecured Medical Devices (IoMT)
+Connected tools like infusion pumps or monitors often run on old software without proper encryption,serving as entry points into the main network.
+-Implement Zero Trust Architecture
+Restrict network access so that users and devices must constantly verify their identity before moving across internal systems.
+-Enforce Strong Data Encryption
+Encrypt all patient data and electronic health records both while stored and while moving across mobile devices or laptops.
+
+-High-Target Environment
+Hospitals are prime targets for ransomware because operational downtime directly threatens patient safety,making them more likely to pay ransoms.
+-Legacy System Dependancy
+The posture is often complicated by a reliance on older medical devices like MRI machines or ventilators that run on outdated software and cannot easily be patched.
+-Converged Security Model
+Modern hospitals use a unified approach where physical teams and cybersecurity teams actively share intelligence to mitigate risks.
+-Access Control Systems
+Badge-restricted entry for sensitive zones like pharmacies,maternity wards and data centers.
+-Surveillance and Alarms
+24/7 CCTV monitoring paired with panic buttons at triage desks and nursing stations.
+-Visitor Management 
+Manage check-in stations,visitor logs and color coded wristbands.
+
+Hospitals frequently connect clinical workstations,administrative computers,guest Wi-Fi networks and critical Internet of Medical Things(IoMT)devices(such as infusion pumps,patient monitors and MRI machines)to same flat network,network.If an administrative employee clicks a phising link and downloads ransomware,the malware can seamlessly move laterally across the network,hijacking life-saving medical machinery.
+-Isolate medical devices,guest Wi-Fi and corporate administrative workflows into entirely separate Virtual Local Area Networks(VLANs).
+-Configure strict access control firewalls to monitor and restrict communication between segments.A compromised laptop on the administration floor should never have a routing path to an ICU patient monitor.
+
+-Software Licensing 
+Software represents considerable time,skill and financial investments by creators,honoring licenses acknowledges ownership and creative labor.
+Paying for or adhering to the terms of a license ensures that developers and maintainers including open-source contributors are fairly rewarded or credited for their work.
+Ethical usage builds reliable relationships between commercial vendors,open-source communities and end-users.
+Copyleft and permissive open-source models carry moral and legal duties to provide proper attribution,preserve copyright notices and share derivative modification transparently.
+Adhering to limits prevents costly vendor audits,punitive "true-up"and copyright lawsuits.
+Avoiding sudden software blacklists,forced emergency remediation or loss access to vital tools keeps business workflows stable.
+
+A true defense in-depth strategy relies on layered protections.If a technical control fails,an administrative policy or a human behavioral check should stop the threat.
+Control frameworks are too broad to be applied directly to a nurse's daily workflow.The hospital's leadership uses these frameworks to draft specific internal policies.
+Policies are useless if they sit in a digital binder and are ignored by busy medical staff.Through continuous training,leadership messaging and onboarding policies shape the organizational culture.
+A strong security culture identifies where frameworks and policies break down in the real world.
+-Technical,Administrative and Human Layers
+They ensure firewalls,segmenting of medical devices(Iot)and encryption are properly deployed.
+-Balancing Security with Clinical Workflow
+When control frameworks require strict access management,a strong security culture ensures clinicians understand why it matters.
+
+A control frame might suggest email filtering.A policy mandates reporting suspicious emails.But it is the culture that makes a busy doctor actually pause,notice a suspicious link and click "Report Phising"button instead of rushing to open the attachment.
