@@ -1,0 +1,9 @@
+Metric | Tool Used | Result |
+| :--- | :--- | :--- |
+| Target Domain | N/A | microsoft.com |
+| Public IPv4 Address Found | DnsChecker.org | 150.171.109.119 |
+| /24 Network Address | Subnet-Calculator.com | 150.171.109.0 |
+| /24 Broadcast Address | Subnet-Calculator.com | 150.171.109.255 |
+| Status of Port 80 (HTTP) | YouGetSignal.com | Open |
+| Status of Port 443 (HTTPS) | YouGetSignal.com | Open |
+| Status of Port 22 (SSH) | YouGetSignal.com | Filtered |
