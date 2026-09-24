@@ -1,0 +1,27 @@
+Rule Description 	UFW Command Syntax (Fill-in) 
+0. Default Inbound Policy 
+(Setting the Foundation) 	sudo ufw default deny incoming 
+1. HTTPS Inbound (Allowing the World to See the Website) 	sudo ufw allow to 10.0.0.10 port 443 proto tcp 
+2. SSH Inbound (Allowing 
+Only the Office for 
+Management) 	sudo ufw allow from 203.0.113.50 to 10.0.0.10 port 22 proto tcp 
+3. Outbound Updates 
+(Allowing the Server to Reach 
+the Internet) 	sudo ufw allow from 10.0.0.10 to any port 80/443 proto tcp 
+Defense Part 2: Defense-in-Depth Analysis  
+The firewall deployed is a Stateful Inspection Firewall. 
+Task: Answer the following two conceptual questions based on your understanding of the tools. 
+1.	Stateful Inspection in Action: 
+○	Question: Why does the Stateful Inspection Firewall permit the response packet (from a remote server) back into the web server (10.0.0.10) without a separate explicit inbound rule being written for it? 
+○ Answer: (Explain how the Firewall's State Table works to track and validate returning traffic.) 
+2.	Integration (AV vs. Firewall): 
+○	Question: In what specific scenario would the Antivirus/Anti-Malware solution on the web server catch a threat that the firewall (using only the rules in Part 1) would miss? 
+○ Answer: (Explain the difference between the firewall's focus on IP/Port headers and the Antivirus's focus on content/behavior.) 
+1.When an internal web server initiates  an outbound connection to a remote server, the firewall records the session details.It automatically allows the matching return traffic back through.
+
+When the web server sends an outbound request,the firewall intercepts it.It records key session parameters in its State Table (or connection table).This includes the source IP,destination IP,source port,destination port and protocol(e.g.,TCP/UDP).   
+ 	
+When the remote server sends a response packet back,the firewall checks this incoming traffic against its active State Table.If the incoming packet matches an existing,established outbound connection recorded in the table,the firewall recognizes it as legitimate returning traffic.It dynamically allows the packet to pass through without needing a permanent,explicit inbound rule manually written in the access control list (ACL).
+Once the connection is terminated (e.g., a TCP FIN or RST packet is sent,or the session times out)the firewall automatically removes the entry from the State Table.This closes the temporary opening and secures the network.
+  2.A firewall acts as a traffic controller focused entirely on network-level routing and policy authorization.It operates mainly at Layers 3 and 4 of the OSI model,inspecting structural metadata like source/destination IP addresses,TCP/UDP ports,and connection flag sequences to decide if traffic is authorized to enter or leave the network.
+An antivirus acts as a security inspector focused entirely on data integrity and application level payload analysis.It operates at the host level,scanning inside the actual file structures,executable binaries and memory spaces for specific malicious code strings (signatures) or analyzing running processes for dangerous actions (heuristics/behavioral analysis) completely independent of how the file arrived over the network.                                                                                                        
