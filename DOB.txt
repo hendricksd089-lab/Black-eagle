@@ -1,0 +1,19 @@
+data = [
+    "Orville Wright",
+    "21 July 1988",
+    "Rogelio Holloway",
+    "13 September 1988",
+    "Majorie Figueroa",
+    "9 October 1988",
+]
+
+names = [line.strip() for i, line in enumerate(data) if i % 2 == 0]
+birthdays = [line.strip() for i, line in enumerate(data) if i % 2 != 0]
+
+print("Names:")
+for name in names:
+    print(name)
+
+print("\nBirthdays:")
+for birthday in birthdays:
+    print(birthday)
