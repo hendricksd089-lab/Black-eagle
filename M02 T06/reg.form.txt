@@ -1,0 +1,8 @@
+num_students = int(input("How many students are registering?"))
+
+for i in range(num_students):
+    
+    student_id = input("Enter the student ID number:")
+    
+    print(student_id)
+    print("...........")
